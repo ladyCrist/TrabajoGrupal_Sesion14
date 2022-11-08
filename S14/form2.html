@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <h2>Viaje</h2>
+    <div class="botones">
+        <form action="index.html" method="post"> 
+            <button type="submit">IR A INICIO</button> 
+        </form> &nbsp; &nbsp;&nbsp;
+        <button type="button" onclick="datos2()">CARGAR DATOS</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="2">
+                    <img src="https://img.freepik.com/vector-premium/icono-ilustrador-diseno-plano-mujer-trabajo-oficial-mujer_35659-24.jpg?w=2000" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4>Datos Personales</h4>
+                </td>
+            </tr>
+        </thead>
+        <tr>
+            <td>Nombres:</td>
+            <td>
+                <textarea id="nombre" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Apellidos:</td>
+            <td>
+                <textarea id="apellidos" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Celular:</td>
+            <td>
+                <textarea id="celular" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Correo:</td>
+            <td>
+                <textarea id="email" readonly cols="30" rows="1"></textarea>
+            </td>
+        </tr>
+    </table>
+
+    <div class="historia">
+        <h3>Historia del viaje</h3>
+        <textarea id="historia" cols="50" rows="10"></textarea>
+    </div>
+
+    <div class="botones">
+        <form action="viajes2.html" method="post"> 
+            <button type="submit">VIAJES</button> 
+        </form>
+        <form action="comidas2.html" method="post"> 
+            <button type="submit">COMIDAS</button> 
+        </form>
+    </div>
+</body>
+</html>
